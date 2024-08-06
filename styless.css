@@ -1,0 +1,704 @@
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100px;
+    
+    
+    @keyframes h1{
+        {font-size:30px;}
+        {font-size:60px;}   
+    }
+
+}
+h1:hover{
+    background-color: rgb(75, 81, 81);
+    width: 100%;
+    
+}
+
+.navbar{
+   background-color:black;
+   border-radius: 4px;
+   
+   
+   
+}
+.navbar ul{
+   overflow: auto;/*remove float*/
+}
+.navbar li{
+   float: left;
+   list-style: none;/*remove bullet*/
+   margin: 10px 2px;
+   padding-top: 4px;
+}
+.navbar li a{
+   padding: 10px 10px;
+   text-decoration: none;
+   color: white;
+}
+.navbar li a{
+   padding: 10px 10px;
+   text-decoration: none;
+   color: white;}
+.navbar li a:hover{/*when user click become blue*/
+  background-color:blue;}
+.search{
+   float: right ;
+   color:black;
+   padding: 12px 75px;
+}
+
+
+   
+
+
+
+button{
+   background-color:  #00E8F8;
+   color: #00E8F8;
+   width: 80px;
+   height: 40px;
+   border-radius: 50%;
+   border-radius: 90%;
+
+   
+}
+button :hover{
+   background-color: black;
+   max-width: 0px;
+   min-width: 5px;
+}
+
+
+
+
+#css{
+    width: 250px;
+    height: 250px;
+    background-color:  rgb(54, 52, 52);
+    position:absolute;
+    margin-top:0%;
+    margin-left: 190px;
+    border-width: 50%;
+    border-radius: 30%;
+    text-align: center;
+   font-size: 25px;
+   line-height: 850%;
+   color: white;
+   
+   
+   
+ }
+ #css:hover {
+   
+    background-color: #00E8F8;
+    color: rgb(75, 81, 81);
+    background-image: url("css.jpg");
+    background-size: contain,cover;
+    background-repeat: no-repeat;
+
+ }
+ #cslogo{
+   width: 40px;
+   height: 40px;
+   background-image: url("HTML5_Logo_512.png");
+   background-size: contain;
+   background-color:#3a4344; ;
+   position:absolute;
+   margin-top: 2%;
+   margin-left: 980px;
+   border-width: 50%;
+   border-radius: 90%;
+   text-align: center;
+  font-size: 35px;
+  line-height: 105%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+  #cslogo:hover {
+  
+   background-color: #00E8F8;
+   color: rgb(75, 81, 81);
+   background-image: url("HTML5_Logo_512.png");
+  }
+
+ #webdevelopmentlogo{
+   width: 40px;
+   height: 40px;
+   background-color:#3a4344; ;
+   background-image: url("css.jpg");
+   background-size: cover;
+   position:absolute;
+   margin-top: 2%;
+   margin-left: 300px;
+   border-width: 50%;
+   border-radius: 90%;
+   text-align: center;
+  font-size: 35px;
+  line-height: 105%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  
+  
+}
+#webdevelopmentlogo:hover {
+  
+   background-color: #00E8F8;
+   color: rgb(75, 81, 81);
+
+}
+#bootstrap{
+   width: 250px;
+   height: 250px;
+   background-color:  rgb(54, 52, 52);
+   position:absolute;
+   margin-top:19%;
+   margin-left: 900px;
+   border-width: 50%;
+   border-radius: 30%;
+   text-align: center;
+  font-size: 25px;
+  line-height: 850%;
+  color: white;
+  
+  
+  
+}
+#bootstrap:hover {
+  
+   background-color: #00E8F8;
+   color: rgb(75, 81, 81);
+
+}
+#sqllogo{
+   width: 40px;
+   height: 40px;
+   background-color:#3a4344; ;
+   background-image: url("sql.png");
+   background-size: cover;
+
+   position:absolute;
+   margin-top: 20%;
+   margin-left: 300px;
+   border-width: 50%;
+   border-radius: 90%;
+   text-align: center;
+  font-size: 35px;
+  line-height: 105%;
+  color: rgb(162, 25, 25);
+  text-transform: uppercase;
+  font-weight: 700;
+  
+  
+}
+#sqllogo:hover {
+  
+   background-color: #00E8F8;
+   color: rgb(75, 81, 81);
+  
+
+}
+
+#sql{
+   width: 250px;
+   height: 250px;
+   background-color:  rgb(54, 52, 52);
+
+   position:absolute;
+   margin-top:18%;
+   margin-left: 190px;
+   border-width: 50%;
+   border-radius: 30%;
+   text-align: center;
+  font-size: 25px;
+  line-height: 850%;
+  color: white;
+  
+  
+  
+}
+#sql:hover {
+  
+   background-color: #00E8F8;
+   color: rgb(16, 17, 17);
+   background-image: url("sql.png");
+}
+#analyticslogo{
+   width: 40px;
+   height: 40px;
+   background-color:#3a4344; ;
+   position:absolute;
+   margin-top: 3%;
+   margin-left: 630px;
+   border-width: 50%;
+   border-radius: 200%;
+   text-align: center;
+  font-size: 35px;
+  line-height: 105%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: url("Python-good-for-machine-learning.webp");
+
+background-size: contain;
+  
+  
+}
+#webdevelopmentlogo:hover {
+  
+   background-color: #00E8F8;
+   color: rgb(75, 81, 81);
+
+}
+#htmllogo{
+   width: 40px;
+   height: 40px;
+   background-image: url("HTML5_Logo_512.png");
+   background-size: contain;
+   background-color:#3a4344; ;
+   position:absolute;
+   margin-top: 2%;
+   margin-left: 980px;
+   border-width: 50%;
+   border-radius: 90%;
+   text-align: center;
+  font-size: 35px;
+  line-height: 105%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+  #htmllogo:hover {
+  
+   background-color: #00E8F8;
+   color: rgb(75, 81, 81);
+   background-image: url("HTML5_Logo_512.png");
+  }
+
+
+ #b{
+    background-color:  rgb(185, 38, 38);
+    width:250px;
+    height:250px;
+    margin-top: 290px;
+    margin-left: 250px;
+    border-radius: 30%;
+    font-size: 25px;
+    line-height: 850%;
+ }
+ #b:hover {
+   
+    background-color: aquamarine;
+
+ }
+ 
+
+ #d{
+   background-color: rgb(54, 52, 52);
+    width:250px;
+    height:250px;
+  margin-top: 28%;
+   margin-left: 400px;
+   border-radius: 30%;
+   text-align: center;
+   color:white;
+   font-size: 25px;
+   line-height: 950%;
+ }
+ #d:hover{
+    background-color: #00E8F8;
+    color:rgb(75, 81, 81);
+
+
+
+ }
+ 
+ #d:hover{
+    background-color: #00E8F8;
+    color:rgb(75, 81, 81);
+ }
+ 
+ 
+ #blue{
+   position:static;
+   background-color: rgb(54, 52, 52);
+   width:250px;
+   height:250px;
+ margin-top: 0%;
+  margin-left: 35%;
+  border-radius: 30%;
+  text-align: center;
+  color:white;
+  font-size: 40px;
+  line-height: 1150%;
+  
+}
+
+ 
+
+ #g{
+   background-color: rgb(54, 52, 52);
+width: 250;
+height: 250;
+position:  absolute;
+color: white;
+margin-top: 0%;
+margin-bottom: 100%;
+margin-left: 35%;
+border-radius: 30%;
+font-size: 25px;
+line-height: 900%;
+text-align: center;
+
+ }
+
+ #g:hover {
+   
+    background-color: #00E8F8;
+    color:rgb(81, 79, 75);
+    background-image:url("python.jfif")
+   
+
+ }
+ #html{
+    background-color:  rgb(54, 52, 52);
+width: 250;
+height: 250;
+position:  absolute;
+margin-top: 0%;
+margin-left: 57%;
+color: white;
+border-radius: 30%;
+font-size: 28px;
+line-height: 750%;
+text-align: center;
+
+
+ }
+
+ #html:hover {
+   
+    background-color: #00E8F8;
+    color: rgb(75, 81, 81);
+    background-image: url("HD-wallpaper-html5-logo-white-silk-texture-html5-emblem-programming-language-html-silk-background.jpg");
+    background-size: cover;
+ }
+ #cp {
+   background-image: url("Googleanalytics.jpg");
+   background-size: cover;
+   background-color: #00E8F8;
+   height: 350px;
+   width:450px;
+   margin-left: 50px;
+   margin-top: 10%;
+   border-radius: 55px;
+   background-repeat: no-repeat;
+
+   
+
+ }
+ #cp:hover{background-color: white;
+
+ }
+ #gp {
+   background-image: url("lim.jpg");
+   background-size: cover;
+   
+   background-color: #00E8F8;
+   height: 350px;
+   width:450px;
+   margin-left: 30rem;
+   margin-top: 20%;
+   border-radius: 55px;
+   background-repeat: no-repeat;
+
+
+   
+
+ }
+ #gp:hover{background-color: white;
+
+ }
+ #lp {
+   background-image: url("product managment.jpg");
+   background-size: cover;
+   background-color: #00E8F8;
+   height: 350px;
+   width:450px;
+   margin-left: 30rem;
+   margin-top: 5%;
+   border-radius: 55px;
+   background-repeat: no-repeat;
+
+   
+
+ }
+ #lp:hover{background-color: white;
+
+ }
+ #mp {
+   background-image: url("Html .jpg");
+   background-size:cover;
+   background-color: #00E8F8;
+   height: 350px;
+   width:450px;
+   margin-left: 50px;
+   margin-top: 5%;
+   border-radius: 55px;
+   background-repeat: no-repeat;
+
+   
+
+ }
+ #mp:hover{background-color: white;
+
+ }
+ #qp {
+   background-image: url("image_cd97ae3d-5304-4b07-9a13-3357f6d9babd20230831_163952.jpg");
+   background-size: cover;
+   background-color: #00E8F8;
+   height: 350px;
+   width:450px;
+   margin-left: 30rem;
+   margin-top: 10%;
+   border-radius: 55px;
+   background-repeat: no-repeat;
+
+   
+
+ }
+ #qp:hover{background-color: white;
+
+ }
+ #cIIT {
+   background-image: url("Sandeep yadav IIT Bombay.pdf - Google Drive - Google Chrome 6_22_2024 8_05_54 AM.png");
+   background-size: cover;
+   background-color: rgb(54, 52, 52);
+   height: 350px;
+   width:450px;
+   margin-left: 30rem;
+   margin-top: 10%;
+   border-radius: 55px;
+   background-repeat: no-repeat;
+
+   
+
+ }
+ #cIIT:hover{background-color: white;
+
+ }
+ 
+ 
+
+ #yes{
+   background-color: rgb(54, 52, 52);
+   ;
+   position: absolute;
+   top: 80%;
+   height: 30%;
+   width:250px;
+   height:250px;
+ margin-top: 7%;
+  margin-left: 48%;
+  border-radius: 30%;
+  text-align: center;
+  color:white;
+  font-size: 25px;
+  line-height: 850%;
+  padding: 0%;
+}
+#yes:hover{
+   background-color: #00E8F8;
+   color:rgb(75, 81, 81);
+
+
+
+
+
+}
+#Teacher{
+   background-color:  rgb(54, 52, 52);
+width: 250;
+height: 250;
+position:  absolute;
+margin-top: 15%;
+margin-left: 57%;
+color: white;
+border-radius: 30%;
+font-size: 28px;
+line-height: 750%;
+text-align: center;
+
+
+}
+#Teacher:hover{
+   background-color: #00E8F8;
+   color:rgb(75, 81, 81);}
+
+
+
+#ks{ background-color: #00E8F8;
+   height: 250px;
+   width: 250px;
+   margin-right: 80%;
+   margin-top: 0%;
+   border-radius: 50%;
+   text-align: left;
+   background-image: url("sandeep pics.jpg");
+   background-size: cover;
+   background-position: center;
+   font-size: xx-large;
+
+}
+#Sheet{
+   background-color: rgb(54, 52, 52);
+width: 250;
+height: 250;
+position:  absolute;
+color: white;
+margin-top: 10%;
+margin-left: 5%;
+border-radius: 30%;
+font-size: 25px;
+line-height: 900%;
+text-align: center;
+
+ }
+
+ #Sheet:hover {
+   
+    background-color: #00E8F8;
+    color:rgb(81, 79, 75);
+
+ }
+
+
+#ps{background-color: rgb(54, 52, 52);
+   height: 250px;
+   width: 390%;
+   margin-top: 0%;
+   margin-left: 200%;
+   color: white;
+   font-size: x-large;
+  
+
+}
+Body{background-color: rgb(54, 52, 52);
+   
+
+}
+/*its for about section para 2*/
+#pss{background-color: rgb(54, 52, 52);
+   height: 250px;
+   width: 445%;
+   margin-top: 2%;
+   margin-left: 165%;
+   color: white;
+   font-size: x-large;
+  
+
+}
+/*For home page photo*/
+
+#photo{
+   background-color:rgb(54, 52, 52) ;
+   height: 250px ;
+   width: 100%;
+   margin-top: 10%;
+   margin-left: 0%;
+   text-align: center;
+   font-size:100px;
+   font-weight: 600;
+
+background-size: cover;
+
+background-position: center; 
+text-align: left;
+color:#00E8F8;
+}
+
+
+/*its for instagram profile link add*/
+
+#instagram{
+   background-color: rgb(200, 137, 28);
+   height:50px ;
+   width: 50px;
+   margin-top: 0%;
+   margin-left: 80%;
+background-image: url("instagramlogo.jpg");
+background-size: cover;
+border-radius: 50%;
+background-position: center; 
+}
+#telegram{
+   background-color: rgb(200, 137, 28);
+   height:50px ;
+   width: 50px;
+   margin-top: 0%;
+   margin-left: 5rem;
+background-image: url("telegramlogo.jpg");
+background-size: cover;
+border-radius: 50%;
+background-position: center; 
+}
+
+/*its for linkdin profile link add*/
+
+#linkdin{
+   background-color: rgb(200, 137, 28);
+   height:50px ;
+   width: 50px;
+   margin-top: 0%;
+   margin-left: 5rem;
+background-image: url("linkdinlogo.jpg");
+background-size: cover;
+border-radius: 50%;
+background-position: center; 
+}
+
+
+/*its for about section photo background shadow*/
+
+#shadow{
+   height: 200px;
+   width: 300px;
+   background-color: rgb(54, 52, 52);
+   margin-left: 0px;
+   margin-top: 20px;
+   text-shadow: #00E8F8;
+   font-weight:bolder;
+   font-size: large;
+
+  
+}
+/* its for about section photo*/
+#kk{ background-color: #00E8F8;
+   height: 250px;
+   width: 250px;
+   margin-right: 80%;
+   border-radius: 50%;
+   text-align: left;
+   background-image: url("sandeep pics.jpg");
+   background-size: cover;
+   background-position: center;
+   font-size: xx-large;
+}
+Intro{
+   background-color: red;
+   width : 250px;
+   height: 250px;
+   margin-right: 100%;
+}
+Body{background-color: rgb(54, 52, 52);
+   
+
+}
+body{
+   background-image: url("Desktop\sandeep pics.jpg");
+    
+}
